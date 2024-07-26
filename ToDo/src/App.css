@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid black;
+  height: 100px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: orange;
+  h3 {
+    text-align: center;
+    display: block;
+  }
+}
+.card:hover {
+  background-color: red;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  padding: 50px;
+}
+
+ul {
+  list-style: none;
+}
